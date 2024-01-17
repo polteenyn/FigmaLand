@@ -39,8 +39,9 @@ body {
 
 .header__inner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
+    width: 100%;
 }
 
 .dlaheader__inner {
@@ -65,7 +66,7 @@ body {
 
 .menu_inputmail {
     display: flex;
-    width: 200px;
+    max-width: 200px;
     padding: 16px 27px;
     border-radius: 39px;
     border: 1px solid #E8E8E8;
@@ -84,8 +85,8 @@ body {
 }
 
 .main-img {
-    margin-left: 30px;
-    width: 760px;
+    /* margin-left: 30px; */
+    width: 100%;
     background: rgba(0, 0, 0, 0.00);
     box-shadow: 0px 9.861px 131.474px 0px rgba(173, 173, 173, 0.23), 0px 9.861px 19.721px 0px rgba(173, 173, 173, 0.16);
 }
@@ -94,6 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 47px;
+    width: 40%;
 }
 
 .main__inner {
@@ -105,15 +107,18 @@ body {
     margin-bottom: 200px;
 }
 
+.main__inner__img{
+    width: 60%;
+}
 .main__inner-title {
-    width: 400px;
+    max-width: 400px;
     margin-left: 75px;
 }
 
 .main__inner-text {
     font-size: 18px;
     margin-top: 27px;
-    width: 350px;
+    max-width: 350px;
     margin-left: 75px;
 }
 
@@ -126,10 +131,16 @@ body {
     background: #EFEFEF;
     color: #38A3F1;
     margin-left: 75px;
-    width: 230px;
+    max-width: 230px;
     margin-top: 40px;
     font-weight: 700;
     align-items: center;
+}
+
+.block2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .block2__inner-text {
@@ -150,7 +161,7 @@ body {
 
 .block2text2 {
     font-size: 50px;
-    width: 360px;
+    max-width: 360px;
     margin: auto;
     text-align: center;
     font-style: normal;
@@ -167,7 +178,7 @@ body {
     font-weight: 400;
     display: flex;
     justify-content: center;
-    width: 320px;
+    max-width: 320px;
     text-align: center;
     margin: auto;
     margin-bottom: 70px;
@@ -189,12 +200,12 @@ body {
 }
 
 .titleicon {
-    width: 187px;
+    max-width: 187px;
     font-size: 18px;
 }
 
 .texticon {
-    width: 255px;
+    max-width: 255px;
 }
 
 .menublock4_buttoninput {
@@ -206,7 +217,7 @@ body {
     background: #EFEFEF;
     color: #38A3F1;
     margin-left: 75px;
-    width: 230px;
+    max-width: 230px;
     font-weight: 700;
     align-items: center;
     margin: auto;
@@ -220,7 +231,7 @@ body {
 .laptop {
     margin-top: 110px;
     margin-bottom: 130px;
-    width: 700px;
+    max-width: 700px;
 }
 
 .block6__inner-item {
@@ -258,13 +269,13 @@ body {
 
 .imgblock7 {
     height: 90px;
-    width: 90px;
+    max-width: 90px;
     margin-bottom: 35px;
 }
 
 .opis {
     text-align: center;
-    width: 200px;
+    max-width: 200px;
     font-size: 18px;
     font-weight: 400;
 }
@@ -290,7 +301,7 @@ body {
     background: #EFEFEF;
     color: #38A3F1;
     margin-left: 75px;
-    width: 230px;
+    max-width: 230px;
     font-weight: 700;
     align-items: center;
     margin: auto;
@@ -304,7 +315,7 @@ body {
 .blocks1 {
     background-color: #424242;
     border-radius: 30px;
-    width: 335px;
+    max-width: 335px;
     height: 325px;
     color: #fff;
     box-shadow: 13px 13px 19px 13px rgba(196, 196, 196, 0.06);
@@ -322,7 +333,7 @@ body {
 .blocks1_business {
     background: linear-gradient(#424242, #666666);;
     border-radius: 30px;
-    width: 335px;
+    max-width: 335px;
     height: 325px;
     color: #fff;
     box-shadow: 13px 13px 19px 13px rgba(165, 165, 165, 0.08);
@@ -337,7 +348,7 @@ body {
     background: #EFEFEF;
     color: #38A3F1;
     margin-left: 75px;
-    width: 225px;
+    max-width: 225px;
     font-weight: 700;
     align-items: center;
     margin: auto;
@@ -408,7 +419,7 @@ body {
     border: 0.6px solid #363636;;
     background: #424242;;
     display: flex;
-    width: 400px;
+    max-width: 400px;
     height: 430px;
     padding: 21px 41px;
     box-shadow: 0px 8.498px 12.42px 0px rgba(0, 0, 0, 0.07);
@@ -416,7 +427,7 @@ body {
 }
 
 .inputname {
-    width: 318px;
+    max-width: 318px;
     height: 35px;
     padding: 19px 13px;
     margin-top: 53px;
@@ -428,7 +439,7 @@ body {
 }
 
 .inputmail {
-    width: 318px;
+    max-width: 318px;
     height: 35px;
     padding: 19px 13px;
     border-radius: 3px;
@@ -443,7 +454,6 @@ body {
     color: #151515;
     font-family: 'Montserrat', sans-serif;
     height: 126px;
-    max-width: 100%;
     padding-left: 13px;
     font-size: 14px;
     border-radius: 3px;
@@ -468,7 +478,7 @@ body {
     border: 1px solid #E8E8E8;
     background: #EFEFEF;
     color: #38A3F1;
-    width: 94px;
+    max-width: 94px;
     font-weight: 700;
     align-items: center;
 } 
@@ -496,7 +506,7 @@ body {
 }
 
 .textlast {
-    width: 238px;
+    max-width: 238px;
     font-size: 12px;
     font-weight: 700;
     color: #fff;
@@ -505,19 +515,21 @@ body {
 
 .iconverh1 {
     display: flex;
-    justify-content: center;
+}
+
+.backgroundfooter {
+    background-color: #292828;
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #292828;
     height: 350px;
 }
 
 .block__footer_1 {
     color: #fff;
-    margin-left: 63px;
+    margin-right: 23px;
 }
 
 .block__footer_1-title {
@@ -531,11 +543,11 @@ body {
     font-style: normal;
     font-weight: 400;
     margin-bottom: 20px;
-    width: 190px;
+    max-width: 190px;
 }
 
 .map {
-    width: 470px;
+    max-width: 470px;
     height: 230px;
     margin-left: 40px;
     border-radius: 10px;
@@ -567,8 +579,11 @@ body {
     gap: 8px;
 }
 
+.header_wrap{
+    width: 100%;
+}
 .textlast1 {
-    width: 116px;
+    max-width: 116px;
     font-size: 8px;
     font-weight: 400;
     color: #fff;
@@ -577,10 +592,10 @@ body {
 
 .iconverh12 {
     display: flex;
-    justify-content: center;
 }
 
 .container {
+    max-width: 1280px;
     flex-wrap: wrap;
     margin: 0 auto;
     padding-left: 15px;
@@ -590,38 +605,47 @@ body {
     .container {
         justify-content: center;
         align-items: center;
-        width: 1280px;
+        width: 1040px;
     }
+
+    .dlaheader__inner {
+        width: 1040px;
+    }
+
     .main {
         justify-content: center;
         align-items: center;
-        width: 1280px;
+        width: 1040px;
     }
     .main__inner {
-        width: 1280px;
+        width: 1040px;
         justify-content: center;
         align-items: center;
         margin-left: 99px;
     }
     .main-img {
-        margin-left: -59px;
+        /* margin-left: -59px; */
     }
 }
 
 @media (max-width: 1040px) {
     .container {
-        width: 960px;
+        width: 768px;
         justify-content: center;
         align-items: center;
     }
     .main {
-        width: 960px;
+        width: 768px;
         justify-content: center;
         align-items: center;
     }
     .main__inner {
-        width: 960px;
+        width: 768px;
         justify-content: center;
         align-items: center;
+    }
+
+    .dlaheader__inner {
+        width: 768px;
     }
 }
